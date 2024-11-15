@@ -1,4 +1,3 @@
-// MainActivity.java
 package com.example.signinsignoutcs460;
 
 import android.content.Intent;
@@ -7,7 +6,7 @@ import android.text.TextUtils;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -27,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Initializes the activity and sets up the sign-in and register button listeners.
+     *
      * @param savedInstanceState Saved instance state bundle.
      */
     @Override

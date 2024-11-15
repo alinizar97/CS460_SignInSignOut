@@ -1,5 +1,4 @@
 
-// SignUpActivity.java
 package com.example.signinsignoutcs460;
 
 import android.content.Intent;
@@ -43,6 +42,7 @@ public class SignUpActivity extends AppCompatActivity {
 
     /**
      * Initializes the activity and sets up listeners for image selection and user registration.
+     *
      * @param savedInstanceState Saved instance state bundle.
      */
     @Override
@@ -73,9 +73,10 @@ public class SignUpActivity extends AppCompatActivity {
 
     /**
      * Handles the result of the image picker intent.
+     *
      * @param requestCode Request code for the intent.
-     * @param resultCode Result code of the operation.
-     * @param data Intent data containing the selected image URI.
+     * @param resultCode  Result code of the operation.
+     * @param data        Intent data containing the selected image URI.
      */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @NonNull Intent data) {
@@ -124,9 +125,10 @@ public class SignUpActivity extends AppCompatActivity {
 
     /**
      * Saves the registered user's data, including an encoded profile image, to Firebase Realtime Database.
+     *
      * @param firstName User's first name.
-     * @param lastName User's last name.
-     * @param email User's email address.
+     * @param lastName  User's last name.
+     * @param email     User's email address.
      */
     private void saveUserToDatabase(String firstName, String lastName, String email) {
         String encodedImage = selectedImageBitmap != null ? encodeImageToBase64(selectedImageBitmap) : "";
@@ -150,6 +152,7 @@ public class SignUpActivity extends AppCompatActivity {
 
     /**
      * Encodes a Bitmap image to a Base64 string.
+     *
      * @param bitmap The Bitmap image to encode.
      * @return The encoded Base64 string.
      */
