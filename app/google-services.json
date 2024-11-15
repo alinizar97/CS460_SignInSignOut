@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "726169016287",
+    "firebase_url": "https://signinsignout-26184-default-rtdb.firebaseio.com",
+    "project_id": "signinsignout-26184",
+    "storage_bucket": "signinsignout-26184.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726169016287:android:e3a8ec4b045561bed9966a",
+        "android_client_info": {
+          "package_name": "com.example.signinsignoutcs460"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwVOafzeWQOY_mbRVB1NRyRCO9lZr0324"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
